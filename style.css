@@ -10,20 +10,78 @@ html {
   display: none;
 }
 body {
+  min-height: 100vh;
   font-family: "Kumbh Sans", sans-serif;
-  /* background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%); */
+  background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%);
+  background-repeat: no-repeat;
+  padding: 14.8rem 2.4rem 9rem 2.4rem;
+}
+.main-div {
+  border-radius: 23px;
+  background: #fff;
+  box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.5);
+  padding: 0 2.4rem 4.8rem 2.4rem;
 }
 .desktop-background-image {
   display: none;
 }
 .top-picture-mobile {
   width: 63%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  position: absolute;
+  left: 6rem;
+  top: -8rem;
 }
 
 .mobile-background {
-  width: 50%;
-  display: block;
+  position: absolute;
+  width: 63%;
+  position: absolute;
+  left: 6rem;
+  top: 0rem;
 }
 .arrow-down {
-  display: block;
+  /* display: block; */
+}
+hr {
+  background: #e8e8ea;
+  height: 0.01rem;
+}
+.pictures-div {
+  position: relative;
+}
+.texts-div {
+  padding-top: 13.2rem;
+}
+.h1-class {
+  color: #1e1f36;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 3.8rem;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  display: none;
+  color: #787887;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px; /* 150% */
+}
+.d {
+  margin-top: 1.9rem;
+  margin-bottom: 1.9rem;
+}
+span {
+  color: #4b4c5f;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
 }
