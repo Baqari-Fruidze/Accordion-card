@@ -6,6 +6,24 @@
 html {
   font-size: 62.5%;
 }
+.des {
+  display: none;
+}
 body {
   font-family: "Kumbh Sans", sans-serif;
+  /* background: linear-gradient(180deg, #b068e9 0%, #6463e7 100%); */
+}
+.desktop-background-image {
+  display: none;
+}
+.top-picture-mobile {
+  width: 63%;
+}
+
+.mobile-background {
+  width: 50%;
+  display: block;
+}
+.arrow-down {
+  display: block;
 }
