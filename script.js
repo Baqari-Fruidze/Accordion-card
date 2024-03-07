@@ -22,6 +22,6 @@ const questionsDivs = document.querySelector(".texts-div");
 questionsDivs.addEventListener("click", (event) => {
   const element = event.target.closest(".d");
   if (!element) return;
-  console.log(element.classlist);
-  element.classlist.toggle("active");
+  console.log(element.classList);
+  element.classList.toggle("active");
 });
