@@ -74,6 +74,7 @@ p {
   font-size: 12px;
   font-weight: 400;
   line-height: 18px; /* 150% */
+  margin-bottom: 1.6rem;
 }
 .d {
   margin-top: 1.9rem;
@@ -84,4 +85,44 @@ span {
   font-size: 13px;
   font-weight: 400;
   line-height: normal;
+}
+@media (min-width: 90rem) {
+  .mb {
+    display: none;
+  }
+  .des {
+    display: block;
+  }
+  body {
+    padding: 12.9rem 23.9rem 13rem 28.1rem;
+  }
+  .desktop-background-image {
+    width: 131%;
+    position: absolute;
+    top: -8rem;
+    left: -16rem;
+  }
+  .desktop-main-picture {
+    width: 100%;
+    margin-left: -3.4rem;
+  }
+  .dzaghluka {
+    display: block;
+    display: block;
+    position: absolute;
+    top: 12rem;
+    left: -9rem;
+    z-index: 999;
+  }
+  .main-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6.5rem 9.5rem 8.3rem 0;
+    overflow: hidden;
+  }
+  .texts-div {
+    padding: 0;
+    width: 43%;
+  }
 }
