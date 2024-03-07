@@ -74,17 +74,25 @@ p {
   font-size: 12px;
   font-weight: 400;
   line-height: 18px; /* 150% */
-  margin-bottom: 1.6rem;
 }
 .d {
-  margin-top: 1.9rem;
-  margin-bottom: 1.9rem;
+  padding-top: 1.9rem;
+  padding-bottom: 1.9rem;
 }
 span {
   color: #4b4c5f;
   font-size: 13px;
   font-weight: 400;
   line-height: normal;
+}
+.active p {
+  display: block;
+}
+.active span {
+  font-weight: 700;
+}
+.active.arrow-down {
+  transform: rotate(180deg);
 }
 @media (min-width: 90rem) {
   .mb {
@@ -108,11 +116,9 @@ span {
   }
   .dzaghluka {
     display: block;
-    display: block;
     position: absolute;
-    top: 12rem;
+    top: 11.5rem;
     left: -9rem;
-    z-index: 999;
   }
   .main-div {
     display: flex;
@@ -124,5 +130,11 @@ span {
   .texts-div {
     padding: 0;
     width: 43%;
+  }
+  span {
+    color: #4b4c5f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
   }
 }
