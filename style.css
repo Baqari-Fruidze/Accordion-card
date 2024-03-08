@@ -91,7 +91,7 @@ span {
 .active span {
   font-weight: 700;
 }
-.active.arrow-down {
+.active .arrow-down {
   transform: rotate(180deg);
 }
 @media (min-width: 90rem) {
@@ -99,7 +99,7 @@ span {
     display: none;
   }
   .des {
-    display: block;
+    display: none;
   }
   body {
     padding: 12.9rem 23.9rem 13rem 28.1rem;
@@ -117,15 +117,19 @@ span {
   .dzaghluka {
     display: block;
     position: absolute;
-    top: 11.5rem;
-    left: -9rem;
+    top: -3.5rem;
+    left: -9.5rem;
   }
   .main-div {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 6.5rem 9.5rem 8.3rem 0;
-    overflow: hidden;
+    background-image: url(./images/illustration-woman-online-desktop.svg),
+      url(./images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat no-repeat;
+    background-size: 50%, 89%;
+    background-position: left -7rem top 8rem, top -19rem left -43rem;
   }
   .texts-div {
     padding: 0;

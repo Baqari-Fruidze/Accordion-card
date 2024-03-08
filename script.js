@@ -18,10 +18,13 @@
 // }
 
 const questionsDivs = document.querySelector(".texts-div");
+const buttons = Array.from(document.querySelectorAll(".d"));
 
 questionsDivs.addEventListener("click", (event) => {
   const element = event.target.closest(".d");
   if (!element) return;
-  console.log(element.classList);
-  element.classList.toggle("active");
+  for (let i = 0; i < buttons.length; i++) {
+    buttons[i].classList.remove("active");
+  }
+  element.classList.add("active");
 });
